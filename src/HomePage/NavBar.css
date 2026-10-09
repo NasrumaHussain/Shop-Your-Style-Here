@@ -1,0 +1,43 @@
+.navigation_bar{
+  border: solid;
+  border-radius: 10px;
+  margin: 0;
+  display: flex;  /* put children beside each other */
+  background-color: antiquewhite; /* vertically center them */
+  align-items: center;
+}
+.navigation_list{
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin-left: auto;
+  margin-right: 20px;
+  list-style: none;
+  cursor: pointer;
+}
+.hamburger_icon{
+  max-width: 30px;
+  margin-left: 15px;
+}
+.hamburger_menu{
+  position: absolute;
+  border: 1px solid hsl(0, 0%, 70%);
+  background-color:antiquewhite;
+  top: 70px;
+  left: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  width: 150px;
+  box-shadow: 3px 3px 3px hsl(0, 0%, 0%, 0.2);
+}
+.hamburger_menu p{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 10px;
+  cursor: pointer;
+}
+.hamburger_menu p:hover{
+  background-color: hsl(39, 51%, 82%);
+  border-radius: 6px;
+}
